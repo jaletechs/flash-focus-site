@@ -1,6 +1,84 @@
-body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 1rem; }
-header { text-align: center; margin-bottom: 1.5rem; }
-h1 { margin-bottom: 0.5rem; }
-a { color: #0366d6; text-decoration: none; }
-a:hover { text-decoration: underline; }
-section { margin-bottom: 1.5rem; }
+<!-- File: styles.css -->
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --clr-primary: #2c3e50;
+  --clr-accent: #2980b9;
+  --clr-bg: #f7f9fa;
+  --clr-card-bg: #ffffff;
+  --spacing: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--clr-primary);
+  background: var(--clr-bg);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing);
+}
+
+header.site-header {
+  background: var(--clr-accent);
+  color: #fff;
+  padding: calc(var(--spacing) * 2) var(--spacing);
+  text-align: center;
+  margin-bottom: calc(var(--spacing) * 2);
+}
+
+header.site-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing);
+  list-style: none;
+  margin-top: var(--spacing);
+}
+
+nav a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background: var(--clr-card-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+.card h2 {
+  margin-bottom: 0.5rem;
+  color: var(--clr-accent);
+}
+
+footer {
+  text-align: center;
+  margin: calc(var(--spacing) * 2) 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+a {
+  color: var(--clr-accent);
+}
