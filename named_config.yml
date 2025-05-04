@@ -1,0 +1,27 @@
+# Site identity
+title: FlashFocus
+description: Boost your learning with flashcards — ready-made or custom decks.
+
+# Where it lives on GitHub Pages
+url: "https://jaletechs.github.io"
+baseurl: "/flash-focus-site"
+
+# Enable the remote theme plugin
+plugins:
+  - jekyll-remote-theme
+
+# Point at the Minimalistic theme
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+
+# Theme options (optional)
+color-scheme: auto       # auto / light / dark
+favicon: true            # drop a favicon.ico in root if you like
+
+# Top-level nav links
+navigation:
+  - name: Home
+    link: /flash-focus-site/index.html
+  - name: Privacy Policy
+    link: /flash-focus-site/privacy.html
+  - name: Support
+    link: /flash-focus-site/support.html
