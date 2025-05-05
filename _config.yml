@@ -16,6 +16,7 @@ remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 # (Optional) Theme customization
 color-scheme: auto
 favicon: true
+logo: /assets/img/logo.png
 
 # Nav links
 navigation:
