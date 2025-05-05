@@ -26,3 +26,14 @@ navigation:
     link: /flash-focus-site/privacy.html
   - name: Support
     link: /flash-focus-site/support.html
+
+platforms:
+  - name: Instagram
+    icon: '<i class="fa-brands fa-instagram"></i>'
+    link: https://instagram.com/minervaeduapp
+  - name: Threads
+    icon: '<i class="fa-brands fa-threads"></i>'   # or use an <img> if you placed an SVG
+    link: https://www.threads.net/@minervaeduapp
+  - name: X
+    icon: '<i class="fa-brands fa-x"></i>'         # or 'fa-twitter'
+    link: https://x.com/minervaeduapp

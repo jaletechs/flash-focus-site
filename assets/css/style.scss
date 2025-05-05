@@ -1,0 +1,58 @@
+---
+---
+@import "minimalistic";
+
+
+/* 1) Uniform badge size (don’t override display) */
+.badge {
+  height: 40px;
+  width: auto;
+  margin: 0 0.5rem;
+}
+
+/* 2) Hide all dark-mode badges by default */
+.badge-dark {
+  display: none;
+}
+
+/* 3) In dark mode, swap them */
+@media (prefers-color-scheme: dark) {
+  .badge-light {
+    display: none;
+  }
+  .badge-dark {
+    display: inline;
+  }
+}
+
+/* only shrink the homepage logo */
+.logo-index {
+  height: 120px;   /* your chosen size */
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Screenshot gallery grid */
+.screenshot-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.screenshot-gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  object-fit: cover;
+  height: auto;
+}
+
+/* Make social icons 1.5rem tall and add a bit of spacing */
+.sidebar .sidebar-links .sidebar-link i,
+.sidebar .sidebar-links .sidebar-link img {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
