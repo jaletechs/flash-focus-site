@@ -5,31 +5,31 @@ title: FlashFocus
 
 ![FlashFocus Logo]({{ '/assets/img/logo.png' | relative_url }}){: .logo .logo-index }
 
-# Learn Faster, Remember Longer
+# AI-Powered Flashcards. Built to Stick.
 
-FlashFocus is a study app for serious learners — students prepping for exams, professionals sharpening skills, and anyone who needs to actually remember what they study. Build decks by hand, generate them with AI from a topic or your own notes, and let spaced repetition decide what to show you next.
+FlashFocus is an AI-powered study app for students prepping for exams, professionals sharpening skills, and anyone who needs to actually remember what they study. Turn a PDF, an image of your notes, or a topic into a deck in seconds. Get tutor-style explanations on demand. Let spaced repetition decide what to show you next.
 
 ---
 
 ## How It Works
 
-1. **Tell us what you're studying for**
-   On first launch, pick your goal — exam prep, learning a new skill, building a daily habit, or just for fun — and the times of day you usually study. The app tunes its recommendations and reminders to match.
+1. **Generate a deck from anything**
+   Feed FlashFocus a topic, a PDF, a Word or PowerPoint file, an image of your notes, or a URL — and AI turns it into a deck of flashcards you can edit before saving. The classic blank-page problem solved.
 
-2. **Browse the store or build your own**
-   Pull ready-made decks from the marketplace, or create your own. Cards can be **flip** (classic Q&A), **cloze** (fill in the blank), or **multiple choice** — useful for past-question style drilling.
+2. **Or build your own**
+   Three card types: **flip** (classic Q&A), **cloze** (fill in the blank), and **multiple choice** for exam-style drilling. Pull ready-made decks from the marketplace if you'd rather not start from scratch.
 
-3. **Generate decks with AI**
-   Feed the AI a topic, a PDF, a Word document, an image of your notes, or a URL — and it produces a deck of cards you can edit before saving. Each generation costs Flash Credits; you start with 20 on signup and get 5 more each month.
-
-4. **Study the way that fits the moment**
+3. **Study the way that fits the moment**
    - **Play mode** for casual flip-through review
    - **Quiz mode** for self-testing with scoring
    - **SRS review** for cards the spaced-repetition engine says are due
    - **Exam mode** for timed, exam-style sittings with a final score report
 
-5. **Get unstuck with AI help**
-   Tap *Explain this* on any card for a short tutor-style breakdown. Open a *Chat with deck* session to ask questions about the material. Run a *Weak-spot analysis* once a week to see where your accuracy is dropping and get a focused review plan.
+4. **Get unstuck with an AI tutor**
+   Tap *Explain this* on any card for a short tutor-style breakdown. Open a *Chat with deck* session to ask questions about the material in plain English. Run a weekly *Weak-spot analysis* to see where your accuracy is dropping — the AI clusters your struggles into named concept gaps and recommends focused review.
+
+5. **Tell us what you're studying for**
+   On first launch, pick your goal — exam prep, learning a new skill, building a daily habit — and the times of day you usually study. The app tunes its recommendations and reminders to match.
 
 6. **Build a habit**
    Streaks, weekly card goals, daily challenges, and achievements give every session a sense of progress. Push reminders nudge you at the times you said you study.
@@ -44,18 +44,27 @@ FlashFocus is a study app for serious learners — students prepping for exams, 
 
 ## Key Features
 
+### Powered by AI
+- **Deck generation** — from a topic, PDF, Word/PowerPoint file, image of your notes, or URL
+- **Explain this card** — tutor-style breakdowns on demand
+- **Chat with your deck** — ask questions in plain English, get answers grounded in the cards
+- **Weak-spot analysis** — weekly AI review that names what you're struggling with and recommends focused practice
+
+### Study toolkit
 - **Three card types** — Flip, Cloze (fill-in-the-blank), Multiple Choice
-- **Marketplace** — curated decks across maths, sciences, languages, history, and exam prep
-- **AI deck generation** — from a topic, PDF, Office document, image, or URL
-- **AI tutoring** — per-card explanations, conversational chat, weekly weak-spot analysis
 - **Spaced repetition** — SM-2 scheduling under the hood, no setup needed
 - **Exam mode** — timed sittings with per-subject score breakdowns
-- **Cloze head-to-head challenges** — async, friend-vs-friend
+- **Marketplace** — curated decks across maths, sciences, languages, history, and exam prep
+- **Text-to-speech** — listen to cards while you commute
+
+### Stay on it
 - **Streaks, XP, daily challenges, achievements** — built-in gamification
+- **Cloze head-to-head challenges** — async, friend-vs-friend
+- **Push reminders** — at the times of day you actually study
+
+### Yours, kept safe
 - **Backup & restore** — export your entire library to a single `.flashfocus` file
 - **Sign in with Email, Google, or Apple** — no account needed for core studying
-- **Push reminders** — at the times of day you actually study
-- **Text-to-speech** — listen to cards while you commute
 - **Pro subscription** — unlimited AI features, no Flash Credit spend, generous monthly chat allowance
 
 ---
