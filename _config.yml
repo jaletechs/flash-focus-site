@@ -24,6 +24,8 @@ navigation:
     link: /flash-focus-site/
   - name: Privacy
     link: /flash-focus-site/privacy.html
+  - name: Terms
+    link: /flash-focus-site/terms.html
   - name: Support
     link: /flash-focus-site/support.html
 

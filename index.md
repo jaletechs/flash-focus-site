@@ -7,42 +7,56 @@ title: FlashFocus
 
 # Learn Faster, Remember Longer
 
-FlashFocus is your pocket-sized study partner—whether you jump into expertly curated decks or build your own with text, images & audio.  
-With AI-powered spaced repetition, custom reminders, and real-time progress tracking, you’ll master any subject faster and keep it in your long-term memory.
+FlashFocus is a study app for serious learners — students prepping for exams, professionals sharpening skills, and anyone who needs to actually remember what they study. Build decks by hand, generate them with AI from a topic or your own notes, and let spaced repetition decide what to show you next.
 
 ---
 
 ## How It Works
 
-1. **Personalize Your Path**  
-   On first launch, choose your main goal—_Learn_, _Prepare for an exam_, _Have fun_, or _Other_. Then pick the times you like to study (morning coffee ☕, commute 🚇, lunch break 🥪, group sessions 👥, and more).
+1. **Tell us what you're studying for**
+   On first launch, pick your goal — exam prep, learning a new skill, building a daily habit, or just for fun — and the times of day you usually study. The app tunes its recommendations and reminders to match.
 
-2. **Discover & Save Decks**  
-   Browse **Featured Decks** or search the Store for topics you love—history, languages, sports trivia, law, you name it. Tap **Save** on any deck to add it to **My decks**.
+2. **Browse the store or build your own**
+   Pull ready-made decks from the marketplace, or create your own. Cards can be **flip** (classic Q&A), **cloze** (fill in the blank), or **multiple choice** — useful for past-question style drilling.
 
-3. **Study with Smart Cards**  
-   Flip cards, listen to audio, and watch your progress bar fill up as you go. Our clean, distraction-free UI keeps you focused on one card at a time.
+3. **Generate decks with AI**
+   Feed the AI a topic, a PDF, a Word document, an image of your notes, or a URL — and it produces a deck of cards you can edit before saving. Each generation costs Flash Credits; you start with 20 on signup and get 5 more each month.
 
-4. **Spaced Repetition & Reminders**  
-   FlashFocus automatically schedules reviews so you see cards just when you’re about to forget them. Get push reminders at your preferred study moments.
+4. **Study the way that fits the moment**
+   - **Play mode** for casual flip-through review
+   - **Quiz mode** for self-testing with scoring
+   - **SRS review** for cards the spaced-repetition engine says are due
+   - **Exam mode** for timed, exam-style sittings with a final score report
 
-5. **Build & Share Your Own**  
-   Create custom decks—add text, images, or audio—then share with friends via link or import from CSV/JSON.
+5. **Get unstuck with AI help**
+   Tap *Explain this* on any card for a short tutor-style breakdown. Open a *Chat with deck* session to ask questions about the material. Run a *Weak-spot analysis* once a week to see where your accuracy is dropping and get a focused review plan.
 
-6. **Track Your Mastery**  
-   View session stats, success rates, and time-of-day trends to fine-tune your learning strategy.
+6. **Build a habit**
+   Streaks, weekly card goals, daily challenges, and achievements give every session a sense of progress. Push reminders nudge you at the times you said you study.
+
+7. **Compete with friends**
+   Send a 10-card cloze challenge to a friend and see who finishes faster and more accurately. Async — they have 24 hours to beat your score.
+
+8. **Keep your work safe**
+   Export everything you've made — decks, cards, and SRS progress — to a single `.flashfocus` file. AirDrop, email, or cloud-share it to a new device and import to pick up exactly where you left off. Free for everyone.
 
 ---
 
 ## Key Features
 
-- **Adaptive Onboarding**: Tailored study goals & times of day  
-- **Curated Store**: Featured & searchable decks on any subject  
-- **Interactive Flashcards**: Tap to flip, audio support, clean progress UI  
-- **Spaced Repetition**: Built-in algorithm for optimal memory retention  
-- **Custom Deck Builder**: Import, export & share your own cards  
-- **Offline & Sync**: Study without Wi-Fi and pick up where you left off  
-- **Performance Analytics**: Detailed stats & session reminders  
+- **Three card types** — Flip, Cloze (fill-in-the-blank), Multiple Choice
+- **Marketplace** — curated decks across maths, sciences, languages, history, and exam prep
+- **AI deck generation** — from a topic, PDF, Office document, image, or URL
+- **AI tutoring** — per-card explanations, conversational chat, weekly weak-spot analysis
+- **Spaced repetition** — SM-2 scheduling under the hood, no setup needed
+- **Exam mode** — timed sittings with per-subject score breakdowns
+- **Cloze head-to-head challenges** — async, friend-vs-friend
+- **Streaks, XP, daily challenges, achievements** — built-in gamification
+- **Backup & restore** — export your entire library to a single `.flashfocus` file
+- **Sign in with Email, Google, or Apple** — no account needed for core studying
+- **Push reminders** — at the times of day you actually study
+- **Text-to-speech** — listen to cards while you commute
+- **Pro subscription** — unlimited AI features, no Flash Credit spend, generous monthly chat allowance
 
 ---
 
@@ -74,8 +88,8 @@ With AI-powered spaced repetition, custom reminders, and real-time progress trac
 ## Download
 
 <p class="badges">
-  <!-- Apple Store -->
-  <a href="https://apps.apple.com/app/flashfocus" target="_blank">
+  <!-- Apple App Store -->
+  <a href="https://apps.apple.com/app/id6744882458" target="_blank">
     <img
       src="{{ '/assets/img/apple_light.svg' | relative_url }}"
       alt="Download on the App Store"
@@ -93,6 +107,11 @@ With AI-powered spaced repetition, custom reminders, and real-time progress trac
     href="https://play.google.com/store/apps/details?id=com.codebynaci.flash_focus"
     target="_blank"
   >
+    <img
+      src="{{ '/assets/img/google_dark.png' | relative_url }}"
+      alt="Get it on Google Play"
+      class="badge badge-light"
+    />
     <img
       src="{{ '/assets/img/google_dark.png' | relative_url }}"
       alt="Get it on Google Play"
